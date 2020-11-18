@@ -1,0 +1,1 @@
+Headless CMS App built with nextjs and ghost

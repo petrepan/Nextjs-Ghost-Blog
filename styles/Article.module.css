@@ -1,0 +1,46 @@
+.article {
+    line-height: 2;
+    font-size: 13px;
+}
+
+.article li {
+    margin-left: 1rem;
+}
+
+.article blockquote {
+    border-left: 2px solid blue;
+    margin: .4rem;
+    margin-left: 0;
+    padding-left: .5rem;
+    line-height: 2;
+}
+
+.article pre {
+    line-height: 1.4em;
+    padding: .8rem .8rem .4rem;
+    border-radius: .4rem;
+    font-size: .8rem;
+    overflow: auto;
+    white-space: pre;
+    width: 100%;
+    color: #272f33;
+    background-color: rgb(230, 230, 249);
+}
+
+.article pre code {
+    background-color: inherit;
+}
+
+.article code {
+    border-radius: 2px;
+    color: #272f33;
+    line-height: 1em;
+    vertical-align: middle;
+    white-space: pre-wrap;
+    background: #f4f8fb;
+    border: 1px solid #e5eff5;
+}
+
+.article figure img{
+    
+}

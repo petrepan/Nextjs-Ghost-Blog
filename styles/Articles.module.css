@@ -1,0 +1,51 @@
+.header {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.articleitem {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.articleitem img{
+    height: 300px;
+}
+
+.articleitem h4 {
+    line-height: 1;
+    padding: .4rem 0;
+}
+
+.articleitem a:hover {
+    text-decoration: underline;
+}
+
+.articleitem:last-of-type { 
+    border-bottom: none;
+}
+
+.articles p {
+    line-height: 2;
+    font-size: 12px;
+}
+
+@media (min-width: 576px) {
+    .articleitem {
+        border-bottom: none;
+    }
+
+    .articleitem img {
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .header {
+        font-size: 5rem;
+    }
+}
