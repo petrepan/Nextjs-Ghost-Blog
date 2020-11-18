@@ -12,7 +12,7 @@ import Layout from "../component/layout";
 
 async function getPosts(page) {
   const res = await fetch(
-    `${process.env.BLOG_URL}/ghost/api/v3/content/posts/?key=${process.env.CONTENT_API_KEY}&include=tags,authors&limit=5&page=${page}`
+    `${process.env.NEXT_PUBLIC_BLOG_URL}/ghost/api/v3/content/posts/?key=${process.env.NEXT_PUBLIC_CONTENT_API_KEY}&include=tags,authors&limit=5&page=${page}`
   ).then((res) => res.json());
 
   const posts = res;

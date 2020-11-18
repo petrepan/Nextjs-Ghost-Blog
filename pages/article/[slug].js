@@ -6,7 +6,7 @@ import Layout from "../../component/layout";
 
 async function getPosts(slug) {
   const res = await fetch(
-    `${process.env.BLOG_URL}/ghost/api/v3/content/posts/slug/${slug}/?key=${process.env.CONTENT_API_KEY}`
+    `${process.env.NEXT_PUBLIC_BLOG_URL}/ghost/api/v3/content/posts/slug/${slug}/?key=${process.env.NEXT_PUBLIC_CONTENT_API_KEY}`
   ).then((res) => res.json());
 
   const posts = res.posts;
