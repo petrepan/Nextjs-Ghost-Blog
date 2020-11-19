@@ -123,16 +123,16 @@ export default function Articles({ articleData, meta }) {
                 );
               })}
           </div>
-          <div>
+          <div className={articlesstyle.prevnextbtn}>
             <button
               disabled={!articleData.meta.pagination.prev}
               onClick={handlePrev}>
-              Previous Page
+              <i className="fas fa-long-arrow-alt-left"></i> Previous Page
             </button>
             <button
               disabled={!articleData.meta.pagination.next}
               onClick={handleNext}>
-              Next Page
+              Next Page <i className="fas fa-long-arrow-alt-right"></i>
             </button>
           </div>
         </div>

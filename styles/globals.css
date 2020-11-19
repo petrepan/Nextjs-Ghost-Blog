@@ -60,7 +60,7 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  object-position: top;
+  object-position: 50% 20%;
 }
 
 .loading {

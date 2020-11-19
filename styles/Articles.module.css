@@ -33,6 +33,37 @@
     font-size: 12px;
 }
 
+.articles .prevnextbtn button {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.articles .prevnextbtn button:first-of-type {
+    margin-right: 6px;
+}
+
+.articles .prevnextbtn button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.articles .prevnextbtn button:disabled {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #aaa;
+    cursor: default;
+}
+
+.articles .prevnextbtn button:disabled:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #aaa;
+    cursor: default;
+}
+
+
 @media (min-width: 576px) {
     .articleitem {
         border-bottom: none;

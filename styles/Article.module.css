@@ -1,6 +1,7 @@
 .article {
     line-height: 2;
     font-size: 13px;
+    word-wrap: break-word;
 }
 
 .article li {
@@ -41,6 +42,3 @@
     border: 1px solid #e5eff5;
 }
 
-.article figure img{
-    
-}
