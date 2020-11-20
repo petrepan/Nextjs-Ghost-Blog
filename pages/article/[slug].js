@@ -58,8 +58,6 @@ export default function Articles({ post, allPost }) {
     }
   }, [allPost, slugIndex]);
 
-  console.log(nextPost);
-  console.log(prevPost);
 
   if (!router.isFallback) {
     var slugIndex = allPost
@@ -86,12 +84,11 @@ export default function Articles({ post, allPost }) {
     document.body.appendChild(script);
   }
 
-  console.log(post);
   return (
     <Layout article post={post}>
       <Head>
-        <title>The Wizkid Blog</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>{post.title}</title>
+        <link rel="icon" href="/favicon1.ico" />
       </Head>
 
       <div className={`${style.container} ${articlestyle.article}`}>
